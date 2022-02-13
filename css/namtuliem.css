@@ -1,0 +1,87 @@
+body {
+  background: linear-gradient(#476CFF, #FFEF5C);;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.box{
+  padding: 20px 0px 20px 0px ;
+}
+.card {
+  background-color: white;
+  width: 60vw;
+  height: 30vw;
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 50px 0px 50px 0px;
+}
+.card-img {
+  width: 50%;
+  height: 100%;
+}
+.card-price {
+  padding: 5px 0px 9px 0px ;
+  color: blueviolet;
+  font-size: 28px;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.text {
+  font-size: 18px;
+  padding: 0px 0px 10px 5px;
+}
+
+.card-right {
+  width: 40%;
+  padding: 40px 20px 40px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+  background-color: #dc4a38;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+  transition: color 0.5s, background 0.5s;
+  padding: 8px 60px;
+}
+.card-button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #dc4a38;
+  background-color: aliceblue;
+}
+.btn-link{
+  text-decoration: none;
+  color: aliceblue;
+  background-color: #dc4a38;
+  transition: color 0.5s, background 0.5s;
+  padding: 8px 60px;
+}
+.btn-link:hover{
+  color: #dc4a38;
+  background-color: aliceblue;
+
+}
+.first{
+  text-align: center;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
